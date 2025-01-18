@@ -1,0 +1,73 @@
+
+
+.work-sans {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+/* shared Style */
+
+.text-primary{color:#FD6E0A ;}
+
+.dark-2{ color:#474747 ;}
+.btn{
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #FD6E0A;
+  padding: 18px 36px;
+  border-radius: 5px;
+  color: white;
+  border: none;
+
+}
+
+
+nav {display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 50px 200px;}
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul li { list-style: none;
+margin-right: 50px;}
+a {text-decoration: none;}
+nav ul{
+  display: flex;
+  align-items: center;
+
+}
+
+/* banner styles */
+
+.banner-greetings {
+  font-weight:400 ;
+  font-size: 45px ;
+}
+.banner-title{
+ font-weight: bold;
+ font-size: 85px;
+
+}
+.banner-profile-pic {
+width: 580 px;
+
+}
+.banner{
+ display: flex;
+ justify-content: space-between;
+ margin: 0 35px 0 230px;
+
+
+}
+.banner-content{
+  max-width: 580px;
+}
+.header {
+  background-image: url('../images/developer.png'), url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
